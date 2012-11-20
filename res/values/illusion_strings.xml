@@ -153,7 +153,6 @@
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
 
-    <!-- Quiet hours -->
     <string name="quiet_hours_title">Quiet hours</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
@@ -240,5 +239,9 @@
     <string name="four">Four</string>
     <string name="five">Five</string>
     <string name="six">Six</string>
+
+    <!-- Themes settings  -->
+    <string name="themes_settings_title">Themes</string>
+    <string name="themes_settings_summary">Change themes with T-Mobiles theme engine</string> 
 
 </resources>
