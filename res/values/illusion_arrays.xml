@@ -15,6 +15,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Screen-off animations -->
+    <string-array name="screen_off_animation_entries">
+        <item>Fade-out</item>
+        <item>Electron beam</item>
+        <item>Scale down</item>
+    </string-array>
+
+    <string-array name="screen_off_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Values for the notification light pulse spinners -->
     <string-array name="notification_pulse_length_entries">
         <item>@string/pulse_length_always_on</item>

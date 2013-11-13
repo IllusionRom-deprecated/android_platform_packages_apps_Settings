@@ -226,6 +226,9 @@
     <!-- Header on first screen of choose encryption password [CHAR LIMIT=30] -->
     <string name="encryptionpassword_choose_your_password_header">Set encryption password</string>
 
+    <!-- Screen off animation -->
+    <string name="screen_off_animation">Screen-off animation</string>
+
     <!-- Basic Numbers -->
     <string name="two">Two</string>
     <string name="three">Three</string>
