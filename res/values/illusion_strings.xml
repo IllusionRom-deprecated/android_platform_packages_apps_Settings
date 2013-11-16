@@ -63,6 +63,15 @@
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
 
+    <!-- Lock screen widgets -->
+
+    <string name="lock_screen_title">Lock screen</string>
+    <string name="lockscreen_widgets_category_title">Widgets</string>
+    <string name="lockscreen_maximize_widgets_title">Maximize widgets</string>
+    <string name="lockscreen_maximize_widgets_summary">Show widgets maximized and the unlock minimized when the screen is turned on</string>
+    <string name="lockscreen_enable_widgets_title">Widget pager</string>
+    <string name="lockscreen_enable_widgets_summary">Allow multiple widget pages to be added and selected</string>
+
     <!-- Battery light settings -->
     <string name="battery_reset_title">Reset</string>
     <string name="battery_light_title">Battery light</string>

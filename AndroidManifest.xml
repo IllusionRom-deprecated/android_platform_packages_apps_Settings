@@ -102,6 +102,12 @@
             android:requiredForAllUsers="true"
             android:supportsRtl="true">
 
+        <receiver android:name=".cyanogenmod.LockscreenInterface$DeviceAdminLockscreenReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_lockscreen" />
+        </receiver>
+
         <!-- Only system/su can open this activity -->
         <!-- This activity will then call the MultitaskSuRequestActivity to create a new task stack -->
         <activity
@@ -1717,6 +1723,8 @@
         />
 
         <activity android:name=".LockscreenTargets" />
+
+        <activity android:name=".cyanogenmod.LockscreenInterface" />
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to quite hours settings -->
         <activity android:name="Settings$QuietHoursSettingsActivity"
