@@ -225,6 +225,8 @@
 
     <!-- Header on first screen of choose encryption password [CHAR LIMIT=30] -->
     <string name="encryptionpassword_choose_your_password_header">Set encryption password</string>
+    <string name="lockscreen_quick_unlock_control_title">Quick unlock</string>
+    <string name="lockscreen_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
     <!-- Screen off animation -->
     <string name="screen_off_animation">Screen-off animation</string>
