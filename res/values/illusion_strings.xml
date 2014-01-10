@@ -231,6 +231,9 @@
     <!-- Screen off animation -->
     <string name="screen_off_animation">Screen-off animation</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
     <!-- Basic Numbers -->
     <string name="two">Two</string>
     <string name="three">Three</string>
