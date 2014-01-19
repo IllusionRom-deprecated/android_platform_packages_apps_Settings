@@ -111,4 +111,7 @@
     <string name="root_access_adb">ADB only</string>
     <string name="root_access_all">Apps and ADB</string>
 
+    <!-- Advanced Settings -->
+    <string name="header_category_rootsettings">Advanced Settings</string>
+
 </resources>

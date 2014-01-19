@@ -209,6 +209,9 @@
         android:icon="@drawable/ic_settings_printing"
         android:title="@string/print_settings" />
 
+    <header
+    android:title="@string/header_category_rootsettings" />
+    
     <!-- Superuser -->
     <header
         android:id="@+id/superuser"
