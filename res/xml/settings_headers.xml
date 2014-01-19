@@ -206,9 +206,12 @@
     <header
         android:id="@+id/print_settings"
         android:fragment="com.android.settings.print.PrintSettingsFragment"
-        android:icon="@*android:drawable/ic_print"
+        android:icon="@drawable/ic_settings_printing"
         android:title="@string/print_settings" />
 
+    <header
+    android:title="@string/header_category_rootsettings" />
+    
     <!-- Superuser -->
     <header
         android:id="@+id/superuser"
