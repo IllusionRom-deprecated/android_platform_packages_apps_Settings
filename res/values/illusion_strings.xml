@@ -15,6 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!--Advanced Section Header-->
+    <string name="advanced_category_title">Advanced</string>
+
     <!-- IllusionSettings -->
     <string name="header_category_romsettings">ROM Settings</string>
     <string name="illusionsettings"> Illusion Settings</string>
