@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Illusion Roms
 <!-- Copyright (C) 2012-2013 SlimRoms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -79,7 +80,7 @@
         <item>BR</item>
     </string-array>
 
-<!-- Arrays for root access capability -->
+    <!-- Arrays for root access capability -->
     <string-array name="root_access_entries">
         <item>@string/root_access_none</item>
         <item>@string/root_access_apps</item>
@@ -94,14 +95,14 @@
         <item>3</item>
     </string-array>
 
- <!-- Data usage settings. Entries for cycle length. -->
+    <!-- Data usage settings. Entries for cycle length. -->
     <string-array name="data_usage_cycle_length" translatable="false">
         <item>@string/daily_cycle_lenght</item>
         <item>@string/weekly_cycle_length</item>
         <item>@string/monthly_cycle_length</item>
     </string-array>
 
-<!-- Data usage settings. Weekdays -->
+    <!-- Data usage settings. Weekdays -->
     <string-array name="data_usage_cycle_weekdays" translatable="false">
         <item>@string/weekday_sunday</item>
         <item>@string/weekday_monday</item>
@@ -110,6 +111,34 @@
         <item>@string/weekday_thursday</item>
         <item>@string/weekday_friday</item>
         <item>@string/weekday_saturday</item>
+    </string-array>
+
+    <!-- QuietHours Incoming Contact -->
+    <string-array name="incoming_contact_entries" translatable="false">
+        <item>@string/quiet_hours_auto_disabled</item>
+        <item>@string/quiet_hours_auto_enabled</item>
+        <item>@string/quiet_hours_auto_contacts</item>
+    </string-array>
+    <string-array name="incoming_contact_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- QuietHours Calls Required -->
+    <string-array name="incoming_call_number_entries" translatable="false">
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+    </string-array>
+    <string-array name="incoming_call_number_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
 </resources>
