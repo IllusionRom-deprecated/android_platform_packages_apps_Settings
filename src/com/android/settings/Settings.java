@@ -358,7 +358,8 @@ public class Settings extends PreferenceActivity
         PaymentSettings.class.getName(),
         KeyboardLayoutPickerFragment.class.getName(),
         BlacklistSettings.class.getName(),
-        QuietHours.class.getName()
+        QuietHours.class.getName(),
+        ThemeSettings.class.getName()
     };
 
     @Override
