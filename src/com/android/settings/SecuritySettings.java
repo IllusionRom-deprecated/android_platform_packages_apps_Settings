@@ -89,7 +89,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
 
     // Omni Additions
     private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
-    private static final String LOCKSCREEN_MAXIMIZE_WIDGETS = "lockscreen_maximize_widgets";
     private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "lockscreen_quick_unlock_control";
     private static final String KEY_BLACKLIST = "blacklist";
 
@@ -124,7 +123,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
 
     // Omni Additions
     private CheckBoxPreference mLockRingBattery;
-    private CheckBoxPreference mMaximizeKeyguardWidgets;
     private CheckBoxPreference mQuickUnlockScreen;
     private PreferenceScreen mBlacklist;
 
@@ -225,12 +223,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
                     Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, 0) == 1);
         }
 
-        mMaximizeKeyguardWidgets = (CheckBoxPreference) root.findPreference(LOCKSCREEN_MAXIMIZE_WIDGETS);
-        if (mMaximizeKeyguardWidgets != null) {
-            mMaximizeKeyguardWidgets.setChecked(Settings.System.getInt(getContentResolver(),
-                    Settings.System.LOCKSCREEN_MAXIMIZE_WIDGETS, 0) == 1);
-        }
-
         // biometric weak liveliness
         mBiometricWeakLiveliness =
                 (CheckBoxPreference) root.findPreference(KEY_BIOMETRIC_WEAK_LIVELINESS);
@@ -294,7 +286,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
                 mEnableKeyguardWidgets.setEnabled(!disabled);
             }
         }
-
 
         mQuickUnlockScreen = (CheckBoxPreference) root.findPreference(LOCKSCREEN_QUICK_UNLOCK_CONTROL);
         if (mQuickUnlockScreen  != null) {
@@ -612,9 +603,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
         } else if (preference == mLockRingBattery) {
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, isToggled(preference) ? 1 : 0);
-        } else if (preference == mMaximizeKeyguardWidgets) {
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-                    Settings.System.LOCKSCREEN_MAXIMIZE_WIDGETS, isToggled(preference) ? 1 : 0);
         } else if (preference == mQuickUnlockScreen) {
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, isToggled(preference) ? 1 : 0);
