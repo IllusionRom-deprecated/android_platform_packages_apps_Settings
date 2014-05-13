@@ -62,10 +62,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private CheckBoxPreference mAccelerometer;
+    private CheckBoxPreference mNotificationPulse;
     private WarnedListPreference mFontSizePref;
     private PreferenceCategory mLightOptions;
     private PreferenceScreen mBatteryPulse;
-    private PreferenceScreen mNotificationPulse;
 
     private final Configuration mCurConfig = new Configuration();
     
